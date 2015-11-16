@@ -14,7 +14,7 @@ export default (withHistory, onUpdate) => {
   return (
     <Router history={history} onUpdate={onUpdate}>
       <Route path='/' component={Homepage} />
-      <Route path='/panels' component={Panels} />
+      <Route path='/app/panels' component={Panels} />
     </Router>
   );
 };
