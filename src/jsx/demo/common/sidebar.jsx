@@ -17,7 +17,7 @@ class ApplicationSidebar extends React.Component {
               <div className='sidebar-nav-container'>
                 <SidebarNav style={{marginBottom: 0}}>
                   <SidebarNavItem glyph='icon-fontello-gauge' name='Graphs' href='/'/>
-                  <SidebarNavItem glyph='icon-ikons-grid-1 float-right-rtl' name='Panels' href='/app/panels' />
+                  <SidebarNavItem glyph='icon-ikons-grid-1 float-right-rtl' name='Panels' href='/app/panels' /> 
                 </SidebarNav>
               </div>
             </Col>
